@@ -21,7 +21,7 @@ public class Main {
         }catch(Exception e)
         {
             
-           System.out.println("You must enter the number wihtout comma"); 
+           System.out.println("You must enter the number without a comma"); 
            break;
         }
          // with this equation we fixing the number is even or odd
