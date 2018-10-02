@@ -1,5 +1,5 @@
 
-package isoddnummber;
+package OddEvenNumber;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         
-        
+       
         while(true){
         try{
             System.out.print("Enter the numeber : ");
@@ -24,8 +24,8 @@ public class Main {
            System.out.println("You must enter the number wihtout comma"); 
            break;
         }
-     
-        if(number %2 == 0)
+         // with this equation we fixing the number is even or odd
+        if(number %2 == 0)  
           System.out.println("The number " + number + " is even");                     
         else 
           System.out.println("The number " + number + " is odd");   
